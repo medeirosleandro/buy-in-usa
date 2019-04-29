@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432E17AE2271FC9400F83868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E17AD2271FC9400F83868 /* AppDelegate.swift */; };
+		432E17B02271FC9400F83868 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E17AF2271FC9400F83868 /* ShoppingViewController.swift */; };
+		432E17B32271FC9400F83868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432E17B12271FC9400F83868 /* Main.storyboard */; };
+		432E17B52271FC9500F83868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432E17B42271FC9500F83868 /* Assets.xcassets */; };
+		432E17B82271FC9500F83868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432E17B62271FC9500F83868 /* LaunchScreen.storyboard */; };
+		439F337D2272221400D1FF44 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F337C2272221400D1FF44 /* SettingsViewController.swift */; };
+		439F337F2272222600D1FF44 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F337E2272222600D1FF44 /* TaxesViewController.swift */; };
+		43E3F7632276683D00952002 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3F7622276683D00952002 /* TaxesCalculator.swift */; };
+		43E3F76522766C0100952002 /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3F76422766C0100952002 /* UIViewController+TaxesCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		432E17AA2271FC9400F83868 /* Buy In USA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buy In USA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432E17AD2271FC9400F83868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432E17AF2271FC9400F83868 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		432E17B22271FC9400F83868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432E17B42271FC9500F83868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432E17B72271FC9500F83868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432E17B92271FC9500F83868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439F337C2272221400D1FF44 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		439F337E2272222600D1FF44 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
+		43E3F7622276683D00952002 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		43E3F76422766C0100952002 /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432E17A72271FC9400F83868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432E17A12271FC9400F83868 = {
+			isa = PBXGroup;
+			children = (
+				432E17AC2271FC9400F83868 /* Buy In USA */,
+				432E17AB2271FC9400F83868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432E17AB2271FC9400F83868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432E17AA2271FC9400F83868 /* Buy In USA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432E17AC2271FC9400F83868 /* Buy In USA */ = {
+			isa = PBXGroup;
+			children = (
+				43E3F7662276728D00952002 /* extension */,
+				43E3F7612276682100952002 /* model */,
+				439F337B227221F400D1FF44 /* view */,
+				432E17AD2271FC9400F83868 /* AppDelegate.swift */,
+				432E17B12271FC9400F83868 /* Main.storyboard */,
+				432E17B42271FC9500F83868 /* Assets.xcassets */,
+				432E17B62271FC9500F83868 /* LaunchScreen.storyboard */,
+				432E17B92271FC9500F83868 /* Info.plist */,
+			);
+			path = "Buy In USA";
+			sourceTree = "<group>";
+		};
+		439F337B227221F400D1FF44 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				432E17AF2271FC9400F83868 /* ShoppingViewController.swift */,
+				439F337C2272221400D1FF44 /* SettingsViewController.swift */,
+				439F337E2272222600D1FF44 /* TaxesViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		43E3F7612276682100952002 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				43E3F7622276683D00952002 /* TaxesCalculator.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		43E3F7662276728D00952002 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				43E3F76422766C0100952002 /* UIViewController+TaxesCalculator.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432E17A92271FC9400F83868 /* Buy In USA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432E17BC2271FC9500F83868 /* Build configuration list for PBXNativeTarget "Buy In USA" */;
+			buildPhases = (
+				432E17A62271FC9400F83868 /* Sources */,
+				432E17A72271FC9400F83868 /* Frameworks */,
+				432E17A82271FC9400F83868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buy In USA";
+			productName = "Buy In USA";
+			productReference = 432E17AA2271FC9400F83868 /* Buy In USA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432E17A22271FC9400F83868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Leandro Roberto Medeiros";
+				TargetAttributes = {
+					432E17A92271FC9400F83868 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 432E17A52271FC9400F83868 /* Build configuration list for PBXProject "Buy In USA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432E17A12271FC9400F83868;
+			productRefGroup = 432E17AB2271FC9400F83868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432E17A92271FC9400F83868 /* Buy In USA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432E17A82271FC9400F83868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432E17B82271FC9500F83868 /* LaunchScreen.storyboard in Resources */,
+				432E17B52271FC9500F83868 /* Assets.xcassets in Resources */,
+				432E17B32271FC9400F83868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432E17A62271FC9400F83868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E3F76522766C0100952002 /* UIViewController+TaxesCalculator.swift in Sources */,
+				439F337F2272222600D1FF44 /* TaxesViewController.swift in Sources */,
+				432E17B02271FC9400F83868 /* ShoppingViewController.swift in Sources */,
+				43E3F7632276683D00952002 /* TaxesCalculator.swift in Sources */,
+				432E17AE2271FC9400F83868 /* AppDelegate.swift in Sources */,
+				439F337D2272221400D1FF44 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		432E17B12271FC9400F83868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432E17B22271FC9400F83868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432E17B62271FC9500F83868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432E17B72271FC9500F83868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432E17BA2271FC9500F83868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		432E17BB2271FC9500F83868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432E17BD2271FC9500F83868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Buy In USA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leandro.Buy-In-USA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		432E17BE2271FC9500F83868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Buy In USA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leandro.Buy-In-USA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432E17A52271FC9400F83868 /* Build configuration list for PBXProject "Buy In USA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432E17BA2271FC9500F83868 /* Debug */,
+				432E17BB2271FC9500F83868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432E17BC2271FC9500F83868 /* Build configuration list for PBXNativeTarget "Buy In USA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432E17BD2271FC9500F83868 /* Debug */,
+				432E17BE2271FC9500F83868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432E17A22271FC9400F83868 /* Project object */;
+}
